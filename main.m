@@ -14,7 +14,7 @@
               matDT=B1;
              matDT(Vp(vp))=0; 
 
-     recMatrix=SMF(matDT,drugsim,virussim,18,1500,1,1,1);
+     recMatrix=SMF(matDT,drugsim,virussim,18,1500,0.1,0.8,0.8);
 
             V=[Vn(vn);Vp(vp)];
              MatPredict(V)=recMatrix(V);
