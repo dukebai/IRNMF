@@ -1,7 +1,7 @@
 
 
          B1=virusdrug;
-        % B1(:,4)=0;
+ 
           Vp=find(B1()==1);
         Vn=find(B1()==0);
          MatPredict=zeros(210,34);
